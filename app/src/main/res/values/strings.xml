@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CleanArchitectureTutorial</string>
+
+
+    <string name="main_error_items_loading">Failed to load items</string>
+    <string name="main_button_retry">Retry</string>
+
+    <string name="detail_error_item_loading">Failed to load item details</string>
+    <string name="detail_item_height">Height: </string>
+    <string name="detail_item_weight">Weight: </string>
+    <string name="detail_item_type">Type: </string>
+</resources>
