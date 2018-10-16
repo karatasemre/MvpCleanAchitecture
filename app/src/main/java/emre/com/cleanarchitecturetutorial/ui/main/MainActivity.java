@@ -41,12 +41,7 @@ public class MainActivity extends BaseActivity implements MainView {
         getActivityComponent().inject(this);
 
         itemsAdapter = new ItemsAdapter();
-        itemsAdapter.setOnItemClickListener(new ItemsAdapter.OnItemClickListener() {
-            @Override
-            public void onItemClick(Item itemData) {
-                Navigator.navigationToDetailPage(MainActivity.this, itemData);
-            }
-        });
+        itemsAdapter.setOnItemClickListener(itemData -> Navigator.navigationToDetailPage(MainActivity.this, itemData));
 
         recyclerView.setAdapter(itemsAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
