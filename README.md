@@ -1,5 +1,7 @@
-## MvpCleanArchitecture, RxJava, RxAndroid, Retrofit2
-## Glide, Timber, ButterKnife, Dagger2, Mockito, JUnit Test
+## MvpCleanArchitecture
+
+## RxJava, RxAndroid, Retrofit2, Glide
+## Timber, ButterKnife, Dagger2, Mockito, JUnit Test
 
 
 
